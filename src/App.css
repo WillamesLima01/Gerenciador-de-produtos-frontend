@@ -1,0 +1,147 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.menu {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.menu a:hover, .menu a:focus {
+  background-color: #0056b3;
+  border-radius: 4px;
+}
+
+.container {
+  max-width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #007bff;
+  color:white;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s ease-in-out;
+  margin: 2px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn:hover, .btn:focus {
+  opacity: 0.85;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea, .form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="number"],
+.input-group select {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.input-group button {
+  white-space: nowrap;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .menu a {
+    padding: 10px 15px;
+  }
+
+  .menu div a:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+  .input-group input,
+  .input-group button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .input-group button {
+    width: 100%;
+  }
+}

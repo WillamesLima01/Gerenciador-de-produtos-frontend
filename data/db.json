@@ -1,0 +1,114 @@
+{
+  "suppliers": [
+    {
+      "id": 1,
+      "name": " tio João",
+      "cnpj": "85.317.193/0001-61",
+      "email": "sac@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "João da loja",
+      "cnpj": "2354235234523459879",
+      "email": "lojajoão@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "willames lima",
+      "cnpj": "23452345",
+      "email": "illaap@hotmail.com"
+    },
+    {
+      "id": 4,
+      "name": "azul",
+      "cnpj": "36345346435",
+      "email": "illaap@hotmail.com"
+    },
+    {
+      "name": "Arraildo Pereira de Lima",
+      "cnpj": "32325234532450",
+      "email": "arraildojr@gmail.com",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "arroz",
+      "price": 9.5,
+      "supplierId": 1
+    },
+    {
+      "id": 2,
+      "name": "feijão",
+      "price": 10.5,
+      "supplierId": 2
+    },
+    {
+      "id": 3,
+      "name": "macarrão",
+      "price": 2.7,
+      "supplierId": 1
+    },
+    {
+      "id": "4",
+      "name": "farinha",
+      "price": 4.5,
+      "supplierId": 2
+    }
+  ],
+  "costumers": [
+    {
+      "id": 2,
+      "name": "Zezinho",
+      "cpf": "123123",
+      "email": "zezin@gmail.com",
+      "zipcode": "58079000",
+      "street": "Rua Josefa Miranda Freire",
+      "number": "105",
+      "neighborhood": "Jardim Oceania",
+      "city": "João Pessoa",
+      "state": "Paraíba",
+      "country": "Brasil"
+    },
+    {
+      "name": "Arraildo Pereira de Lima",
+      "cpf": "00100200344",
+      "email": "arraildojr@gmail.com",
+      "zipcode": "51250350",
+      "street": "Rua Doutor Álvaro Ferraz",
+      "number": "48",
+      "neighborhood": "Jordão",
+      "city": "Recife",
+      "state": "PE",
+      "country": "Brasil",
+      "id": 3
+    },
+    {
+      "name": "jose maria",
+      "cpf": "11122233344",
+      "email": "mjose@hotmail.com",
+      "zipcode": "58079000",
+      "street": "Rua Deputado Francisco Seráphico da Nóbrega Filho",
+      "number": "25",
+      "neighborhood": "Funcionários",
+      "city": "João Pessoa",
+      "state": "PB",
+      "country": "Brasil",
+      "id": 4
+    },
+    {
+      "name": "Angela Cristina de Lima",
+      "cpf": "00100200344",
+      "email": "angelinhalima@gmail.com",
+      "zipcode": "51250350",
+      "street": "Rua Doutor Álvaro Ferraz",
+      "number": "200",
+      "neighborhood": "Jordão",
+      "city": "Recife",
+      "state": "PE",
+      "country": "Brasil",
+      "id": 5
+    }
+  ]
+}
